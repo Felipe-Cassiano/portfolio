@@ -23,8 +23,15 @@ function Inicio({ text }) {
                     </div>
                 </div>
                 <div className="icons">
-                    <FontAwesomeIcon icon={faGithub} size="2x"></FontAwesomeIcon>
-                    <FontAwesomeIcon icon={faLinkedin} size="2x"></FontAwesomeIcon>
+
+                        <a href="https://github.com/Felipe-Cassiano" target="_blank">
+                            <FontAwesomeIcon icon={faGithub} size="2x"></FontAwesomeIcon>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/felipe-roberto-cassiano-1198b4281/" target="_blank">
+                            <FontAwesomeIcon icon={faLinkedin} size="2x"></FontAwesomeIcon>
+                        </a>
+
                 </div>
             </div>
         </div>

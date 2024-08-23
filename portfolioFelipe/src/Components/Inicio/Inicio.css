@@ -99,3 +99,21 @@ p {
     gap: 20px;
     margin-bottom: 30px;
 }
+
+.icons a{
+    cursor: pointer;
+    color: white;
+}
+
+@keyframes subir {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-2px);
+    }
+}
+
+.icons a:hover {
+    animation: subir .2s ease-in-out 0s 1 forwards;
+}
