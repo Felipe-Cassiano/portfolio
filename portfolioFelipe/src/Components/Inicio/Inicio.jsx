@@ -15,7 +15,7 @@ function Inicio({ text }) {
         <div className="body">
             <div className="container">
                 <div className="info">
-                    <p className="description">Oi, sou o Felipe!</p>
+                    <p className="description">Oi, eu sou o Felipe!</p>
                     <p className="title"><span className="title" id="react">REACT</span>DEVELOPER</p>
                     <div className="email" onClick={copy}>
                         <div className="box"><FontAwesomeIcon icon={faEnvelope}/></div>
