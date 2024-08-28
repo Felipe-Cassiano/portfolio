@@ -12,17 +12,17 @@ function Inicio({ text }) {
     }
 
     return (
-        <div className="body">
-            <div className="container">
-                <div className="info">
-                    <p className="description">Oi, eu sou o Felipe!</p>
-                    <p className="title"><span className="title" id="react">REACT</span>DEVELOPER</p>
-                    <div className="email" onClick={copy}>
-                        <div className="box"><FontAwesomeIcon icon={faEnvelope}/></div>
-                        <div className="text">{text}</div>
+        <div className="inicio-body">
+            <div className="inicio-container">
+                <div className="inicio-info">
+                    <p className="inicio-description">Oi, eu sou o Felipe!</p>
+                    <p className="inicio-title"><span className="inicio-title" id="inicio-react">REACT</span>DEVELOPER</p>
+                    <div className="inicio-email" onClick={copy}>
+                        <div className="inicio-box"><FontAwesomeIcon icon={faEnvelope}/></div>
+                        <div className="inicio-text">{text}</div>
                     </div>
                 </div>
-                <div className="icons">
+                <div className="inicio-icons">
 
                         <a href="https://github.com/Felipe-Cassiano" target="_blank">
                             <FontAwesomeIcon icon={faGithub} size="2x"></FontAwesomeIcon>

@@ -1,0 +1,12 @@
+ul {
+    display: flex;
+    max-height: 50vh;
+    overflow: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: none;
+}
+
+li {
+    min-width: 30vw;
+    border: 2px solid black;
+}
