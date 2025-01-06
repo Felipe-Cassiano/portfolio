@@ -1,11 +1,11 @@
 .inicio-body {
     background-image: url('https://i.pinimg.com/originals/21/e2/e7/21e2e73eb9a9984e3b407328f65f5e5b.gif');
+    width: 100%;
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    justify-content: start;
 }
 
 .inicio-container {
@@ -14,11 +14,12 @@
     justify-content: center;
     color: white;
     background-image: linear-gradient(to right, hsl(0, 0%, 0%, 0.75), hsl(0, 0%, 0%, 0.4), hsl(0, 0%, 0%, 0.0));
-    width: 70vw;
-    padding-left: 100px;
+    width: 100%;
+    padding-left: 5vw;
 }
 
 .inicio-info {
+    width: 100%;
     margin-top: 30px;
     flex: 1;
     display: flex;
@@ -40,8 +41,11 @@ p {
 .inicio-title {
     font-size: 5rem;
     font-weight: 100;
-    width: 300px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     line-height: 100%;
+    height: fit-content;
 }
 
 #inicio-react {
@@ -54,6 +58,7 @@ p {
     width: fit-content;
     margin-top: 25px;
     position: relative;
+    width: fit-content;
 }
 
 .inicio-email::after {
@@ -117,4 +122,15 @@ p {
 
 .inicio-icons a:hover {
     animation: subir .2s ease-in-out 0s 1 forwards;
+}
+
+@media (max-width: 768px) {
+    .inicio-title {
+        font-size: 15vw;
+    }
+
+    p {
+        font-size: 3vw;
+    }
+
 }

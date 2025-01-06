@@ -69,7 +69,7 @@ function Skills() {
         <li className="skill-container" id={skill.id}>
             <div className="" id="skill-background"></div>
                 <div className="skill-text">
-                    <FontAwesomeIcon icon={skill.img} size="7x" id={skill.imgId} className="skill-img"></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={skill.img} id={skill.imgId} className="skill-img"></FontAwesomeIcon>
                     <div className="skill-type">{skill.name}</div>
                     <p className="skill-info">{skill.text}</p>
                 </div>
